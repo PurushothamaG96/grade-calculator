@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #c9e7ee;
+}
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 60%;
+}
+.right{
+    margin-left: 0.5rem;
+    width: 40%;
+    background-color: white;
+}
+.left{
+    width: 60%;
+    background-color: white;
+}
+
+.total, .average, .grade{
+ width: 100%;
+ height: 100px;
+}
+.total>h1, .average>h1, .grade>h1, .left>h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+}
+.form-inputs{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding: 0.2rem 0.5rem;
+}
+.form-inputs>input{
+    width: 60%;
+}
+.form{
+    text-align: center;
+}
+.form button{
+margin: 0.5rem;
+background-color:black;
+color:white;
+padding: 0.5rem;
+cursor:pointer;
+}
